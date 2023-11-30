@@ -1,0 +1,46 @@
+@import "normalize";       // api: https://github.com/necolas/normalize.css/
+@import "variables";       // 站点变量
+@import "base";
+.el-tabs__item.is-active {
+  color: $navbar--background-color;
+}
+
+.el-menu-item.is-active {
+  color: $navbar--background-color;
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+  color: $navbar--background-color;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: $navbar--background-color;
+  background: $navbar--background-color;
+}
+
+.el-slider__button {
+  width: 16px;
+  height: 16px;
+  border: 2px solid $navbar--background-color;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.el-button--primary {
+  color: #fff;
+  background-color: $navbar--background-color;
+  border-color: $navbar--background-color;
+}
+
+.el-button--primary:focus, .el-button--primary:hover {
+  background: $navbar--background-color;
+  border-color: $navbar--background-color;
+  color: #fff;
+}
